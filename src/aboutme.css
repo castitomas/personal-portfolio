@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    background-color: #161618;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #36ac5b;
+}
+
+.type-white {
+    color: #fff;
+}
+
+header, main, footer {
+    padding-top: 48px;
+}
+
+/* Navbar */
+
+#navbar {
+    padding: 0 20px;
+    display: block;
+}
+
+#navbar .links {
+    padding-top: 10px;
+}
+
+#navbar .links a {
+    padding-right: 20px;
+    font-size: 1.15rem;
+}
+
+#navbar .logo a {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+/* Main */
+
+main section{
+    padding: 0 20px;
+}
+
+.container-x p {
+    font-size: 1.8rem;
+    line-height: 1.425;
+    font-weight: 500;
+}
+
+.container-x .aboutme {
+    font-weight: 700;
+}
+
+/* Footer */
+
+footer section {
+    padding: 0 20px;
+}
+
+footer section .point {
+    padding-bottom: 40px;
+}
+
+.heavy {
+    font-size: 1.40rem;
+    font-weight: 700;
+}
+
+.label {
+    font-size: 1.15rem;
+}
+
+/*mediaqueries*/
+
+@media screen and (min-width: 720px) {
+    header, main, footer {
+        padding-top: 100px;
+    }
+    
+    .heavy {
+        font-weight: 700;
+    }
+
+    #navbar, footer section, main section {
+        padding: 0 60px;
+    }
+
+    #navbar .links a, .label{
+        font-size: 1.50rem;
+    }
+
+    #navbar .logo a, .heavy{
+        font-size: 2rem;
+    }
+
+    .container-x p {
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 500;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: row;
+    }
+
+    .footer .point {
+        padding: 0 15px 50px 15px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .footer .point {
+        padding-right: 70px;
+    }
+
+}
+
+@media screen and (min-width: 1094px){
+    
+    body {
+        padding: 0px 75px;
+    }
+
+    header, main, footer {
+        padding-top: 100px;
+    }
+
+    .heavy {
+        font-weight: 700;
+    }
+
+    #navbar .links a, .label{
+        font-size: 1.75rem;
+    }
+
+    #navbar .logo a, .heavy{
+        font-size: 2rem;
+    }
+
+    .container-x p {
+        font-size: 4rem;
+        line-height: 1.75;
+        font-weight: 500;
+    }
+
+    .footer .point {
+        padding-right: 30vh;
+    }
+}
