@@ -33,6 +33,11 @@ header, main, footer {
     padding-top: 48px;
 }
 
+.color-green {
+    color:#36ac5b;
+    font-weight: 700;
+}
+
 /* Navbar */
 
 #navbar {
@@ -69,6 +74,8 @@ main section{
 .container-x .aboutme {
     font-weight: 700;
 }
+
+
 
 /* Footer */
 
