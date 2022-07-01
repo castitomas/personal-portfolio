@@ -85,6 +85,10 @@ main section{
     font-weight: 700;
 }
 
+.container-x .link-email {
+    font-weight: 700;
+}
+
 .email {
     font-size: 1.25rem;
     font-weight: 700;

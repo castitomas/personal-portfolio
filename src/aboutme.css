@@ -75,7 +75,16 @@ main section{
     font-weight: 700;
 }
 
+.skills-icons {
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
 
+.skills-icons i {
+    font-size: 70px;
+    padding: 20px;
+}
 
 /* Footer */
 
