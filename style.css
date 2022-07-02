@@ -30,7 +30,7 @@ a:hover {
 }
 
 header, main, footer {
-    padding-top: 45px;
+    padding-top: 48px;
 }
 
 
@@ -38,7 +38,7 @@ header, main, footer {
 /* Navbar */
 
 #navbar {
-    padding: 0 10px;
+    padding: 0 20px;
     display: block;
 }
 
